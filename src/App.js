@@ -19,7 +19,7 @@ class App extends Component {
 	  
     return (
       <section>
-		<h1><u>Listado de Usuarios</u></h1>
+		<h1 class="font-weight-bold"><u>Listado de Usuarios</u></h1>
           {data.map((lista) => (
             <section>
                        <Lista key={lista.index}
